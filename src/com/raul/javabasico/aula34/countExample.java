@@ -10,6 +10,18 @@ public class countExample {
 		Count.showCount();
 		Count.decrement();
 		Count.showCount();
+		
+		Count myCount = new Count();
+		
+		myCount.increment();
+		myCount.increment();
+		myCount.showCount();
+		
+		Count.decrement();
+		
+		myCount.showCount();
+		myCount.decrement();
+		myCount.showCount();
 
 	}
 
